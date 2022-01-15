@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/layout/layout.dart';
 import 'package:untitled/modules/Authentication/Signup/signup_screen.dart';
 import 'package:untitled/shared/colors.dart';
 import 'package:untitled/shared/components/authentication_form_field.dart';
@@ -19,6 +20,7 @@ class LoginScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text('Login',style: TextStyle(color: mainColor,fontSize: 36),),
+              const SizedBox(height: 15,),
               Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.end,
@@ -41,6 +43,7 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(height: 15,),
               DefaultButton(
                 onPressed: (){
+                  navigateTo(context: context, screen: LayoutScreen());
                 },
                 title: 'Login',
               ),

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/modules/Authentication/Login/login_screen.dart';
 import 'package:untitled/shared/colors.dart';
 import 'package:untitled/shared/components/authentication_form_field.dart';
 import 'package:untitled/shared/components/default_button.dart';
+import 'package:untitled/shared/navigation/Navigation.dart';
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({Key? key}) : super(key: key);
 
@@ -84,7 +86,9 @@ class SignUpScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text('Have any account?',style: TextStyle(color: hexResolutionBlue),),
-                  TextButton(onPressed: (){},child: Text('Sign In',style: TextStyle(color: hexResolutionBlue),)),
+                  TextButton(onPressed: (){
+                    navigateToAndFinish(context: context, screen: LoginScreen());
+                  },child: Text('Sign In',style: TextStyle(color: hexResolutionBlue),)),
                 ],
               )
 
