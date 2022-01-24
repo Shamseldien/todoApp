@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/modules/Authentication/Login/login_screen.dart';
-import 'package:untitled/shared/colors.dart';
+import 'package:untitled/shared/style/colors.dart';
 import 'package:untitled/shared/components/authentication_form_field.dart';
 import 'package:untitled/shared/components/default_button.dart';
 import 'package:untitled/shared/navigation/Navigation.dart';

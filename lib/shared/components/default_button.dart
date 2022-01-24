@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/shared/colors.dart';
+import 'package:untitled/shared/style/colors.dart';
 class DefaultButton extends StatelessWidget {
    String? title;
    void Function()? onPressed;

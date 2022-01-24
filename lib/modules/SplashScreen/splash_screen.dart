@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:untitled/modules/Authentication/Login/login_screen.dart';
-import 'package:untitled/shared/colors.dart';
+import 'package:untitled/shared/style/colors.dart';
 import 'package:untitled/shared/components/default_button.dart';
 import 'package:untitled/shared/navigation/Navigation.dart';
 class SplashScreen extends StatelessWidget {

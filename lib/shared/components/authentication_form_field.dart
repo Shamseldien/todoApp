@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:untitled/shared/colors.dart';
+import 'package:untitled/shared/style/colors.dart';
 class AuthenticationFormField extends StatelessWidget {
    String? hintText;
    String? prefixIcon;
